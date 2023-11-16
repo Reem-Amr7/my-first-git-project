@@ -9,13 +9,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: 'Testing Github action'
-      run: pwd
+        run: pwd
 
       - name: 'Testing Printing'
-      run: echo reem
+        run: echo reem
 
 
