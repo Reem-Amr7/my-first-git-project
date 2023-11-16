@@ -21,4 +21,4 @@ jobs:
         run: docker build -t reemamr87/image2 .
 
       - name: "pushing to Docker hub "  
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/image1 
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/image2
