@@ -15,7 +15,10 @@ jobs:
       - name: 'Testing Github action'
         run: pwd
 
-      - name: 'Testing Printing'
-        run: echo reem
+      - name: 'before'
+        run: ls
 
+      - uses: actions/checkout@v3
 
+      - name: 'after'
+        run: ls
